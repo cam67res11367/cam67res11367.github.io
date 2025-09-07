@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+    <head>
+	    <title>Butterflies puzzle</title>
+		<meta charset="UTF-8">
+		<meta name="author" content="Camila Restrepo">
+		<meta name="viewport" content="width device-width, initial-scale 1.0">
+	</head>
+	<body>
+	    <style>
+		
+		    section.container{
+			display:grid;
+			gap:5px;
+			grid-template-areas:
+			    'hd hd hd hd hd'
+				'mn mn mn mn mn'
+				'.  ft ft ft . '
+				;
+			justify-content:center;
+			}
+			
+			div.header {
+			grid-area:hd;
+			}
+			
+		    section.puzzle{
+			display:flex;
+			flex-direction:row;
+			flex-wrap:wrap;
+			width:600;
+			grid-area:mn;
+			}
+			
+			.hidden {
+			visibility:hidden;
+			}
+			
+			p-footer {
+			grid-area:ft;
+			}
+			
+			body {
+			background-color:gray;
+			}
+		</style>
+		
+		<section class="container">
+		
+		    <div class="header">
+		        <h1>Puzzle</h1>
+		        <p>
+				    Student: Camila Restrepo Correa</br>
+				    Puzzle: Butterflies puzzle
+				</p>
+		    </div>
+		
+		    <section class="puzzle">
+		        <div><img src="images/4.4_puzzle1/puzzle1_Q.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_G.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_A.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_J.jpg"> </div>
+			
+			    <div><img src="images/4.4_puzzle1/puzzle1_M.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_P.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_B.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_H.jpg"> </div>
+			
+			    <div><img src="images/4.4_puzzle1/puzzle1_O.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_E.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_N.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_C.jpg"> </div>
+			
+			    <div><img src="images/4.4_puzzle1/puzzle1_I.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_F.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_L.jpg"> </div>
+			    <div><img src="images/4.4_puzzle1/puzzle1_K.jpg"> </div>
+			
+			    <div class="hidden"><img src="images/4.4_puzzle1/puzzle1_D.jpg"> </div>
+		    </section>
+		
+		<p>Release date:Sepetember 9<sup>th</sup>, 2025</p>
+		</section>
+	</body>
+</html>
