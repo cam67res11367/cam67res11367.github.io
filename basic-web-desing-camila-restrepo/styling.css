@@ -1,0 +1,29 @@
+
+body {
+	background-color:#ADD8E6;
+}
+
+table, th, td {
+	border: 1px solid black;
+} 
+
+table, p{
+	font-family: 'Courier New', monospace;
+}
+
+.winner {
+	background-color: gold ;
+}
+
+
+td {
+	background-color: #FFFFFF;
+}
+
+th {
+	background-color:  purple;
+}
+
+tr td:first-child {
+	background-color: #CBC3E3;
+}
