@@ -1,0 +1,24 @@
+body {
+	background-color:#AEDAF2;
+}
+
+p, h1, div {
+	font-family: 'Courier New', monospace;
+	margin:20px;
+}
+
+img {
+	border: 10px double purple;
+	margin:20px;
+}
+
+.container {
+	display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.no {
+	font-weight:bolder;
+	font-size: 20px;
+}
