@@ -14,37 +14,147 @@
 			    background-color:#393173;
 			}
 			
+			@keyframes myAnimation {
+                from { color: #393173; font-size:10px; }
+				to { color: #FFFFFF; font-size:50px; }  
+            }
+			
+			@keyframes myAni {
+                from { color: #393173; font-size:5px; }
+				to { color: #FFFFFF; font-size:19px; }  
+            }
+			
 			h1 {
 			    color:#FFFFFF;
 				font-family: 'Montserrat', sans-serif;
 				font-size: 50px;
+				margin-bottom:0px;
+				animation-name: myAnimation;
+				animation-duration: 5s;
 			}
 			
 			div {
 			    background-color:#E6DFC1;
-				height:250px;
-				width:400px;
+				height:260px;
+				width:450px;
 				margin:10px;
-				border:5px double #A89C65;
+				border:10px double #A89C65;
+				display:flex;
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+				transition: width 3s, border-radius 3s, background-color 3s, border 3s;
+				color:#E6DFC1;
+				font-family:'Montserrat', sans-serif;
 			}
+			
+			h2 {
+				
+				font-family:'Montserrat', sans-serif;
+				font-size:50px;
+				font-weight:bolder;
+				color:#A89D6F;
+				margin-bottom:0px;
+				margin-top:10px;
+			}
+
 			
 			section {
 			    display:flex;
 				flex-wrap:wrap;
 				flex-direction:row
 			}
+			
+			
+			h3 {
+			    color:#FFFFFF;
+				font-family:'Montserrat', sans-serif;
+				margin-top:0px;
+				animation-name: myAni;
+				animation-duration: 7s;
+			}
+			
+			div:hover {
+				border-radius:20px;
+				background-color:#A89D6F;
+				border:10px double #736A44;
+			}
+			
+			p { color:#FFFFFF;
+				font-family:'Montserrat', sans-serif;
+				margin-top:0px;
+				animation-name: myAni;
+				animation-duration: 7s;
+				font-size:19px;
+			}			
+			
 		</style>
 		
         <h1>Social Studies Flashcards</h1>
+		<h3>Modern age</h3>
+		<p>Put the mouse over the flashcards to see what does the word mean</p>
 		<section>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
-		    <div>n</div>
+		    <div>
+			    <h2>Enlightment</h2>
+				The Enlightenment was a period of time when people developed new ideas about human
+                existence, including peoples’ basic rights and the level of control they should have over their government and their
+                futures. The Enlightenment began in Europe around 1715. People in cities like Paris gathered in salons to discuss
+                philosophy and ways to improve the human experience. Many of their ideas were based in science and reason, which is
+                why this time was also called the Age of Reason.
+				
+			</div>
+		    <div>
+			    <h2>Renaissance</h2>
+				Renaissance Humanism was an intellectual movement typified by a
+				revived interest in the classical world and studies which focussed not on
+				religion but on what it is to be human. Its origins went back to 14th-century 
+				Italy and such authors as Petrarch (1304-1374) who searched
+				out 'lost' ancient manuscripts. By the 15th century, humanism had spread across Europe.
+			</div>
+		    <div>
+			    <h2>Industrial Revolution</h2>
+				The Industrial Revolution refers to the greatly increased output of machine-made goods
+                that began in England in the middle 1700s. Before the Industrial Revolution, people wove
+                textiles by hand. Then, machines began to do this and other jobs. Soon the Industrial
+                Revolution spread from England to Continental Europe and North America.
+			</div>
+			<div>
+			    <h2>Reformation</h2>
+				This was a time in the History of Europe, when some people began to question some of the Teachings
+                of The Catholic Church and to challenge the authority of the Pope. It began in Germany in 1517 as a protest
+                against abuses in the Church. The supporters of this desire for reform were called “Protestants”.
+			</div>
+			<div>
+			    <h2>Colonialism</h2>
+				The practice of a powerful country extending its control over another territory and its people, 
+				often involving political dominance, economic exploitation, and the forced movement of settlers to that land. 
+				Motivated by resource acquisition and economic gain, this practice was widespread from the 16th to the mid-20th centuries, 
+				with European nations establishing colonies across the globe. 
+			</div>
+			<div>
+			    <h2>Counter Reformation</h2>
+				The counter-reformation definition is a process by which the Catholic Church attempted internal reform and renewed evangelization.
+				It has been called Counter-Reformation because it was a movement against, or counter to the Protestant Reformation.
+			</div>
+			<div>
+			    <h2>French Revolution</h2>
+				The French Revolution was a watershed event in world history that began in 1789 and ended in the late 1790s
+				with the ascent of Napoleon Bonaparte. During this period, French citizens radically altered their political landscape, 
+				uprooting centuries-old institutions such as the monarchy and the feudal system.
+			</div>
+			<div>
+			    <h2>Mercantilism</h2>
+				Mercantilism, economic theory and practice common in Europe from the
+				16th to the 18th century that promoted governmental regulation of a nation’s 
+				economy for the purpose of augmenting state power at the expense of rival
+				national powers. It was the economic counterpart of political absolutism.
+			</div>
+			<div>
+			    <h2>Absolutism</h2>
+				The political doctrine and practice of unlimited centralized authority and absolute sovereignty, as vested
+				especially in a monarch. The essence of an absolutist system is that the ruling power is not subject to 
+				regularized challenge or check by any other agency, be it judicial, legislative, religious, economic, or electoral.
+			</div>
 		</section>
 	</body>
 </html>
