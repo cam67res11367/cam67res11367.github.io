@@ -29,30 +29,105 @@
 		        top:50px;
 		        right:200px;
 	        }
+			
+			.table {
+		        position:absolute;
+		        left:900px;
+		        top:850px;
+	        }
 		
 		</style>
 		
 	     <!--Navigation part-->
 		<div class="navigation">
-		    <img src="images-o3/Logo.png" alt="" class="logo">
+		    <img src="images-o3/Logo.png" alt="Logo of the companie, an O with a 3 inside" class="logo">
 			<h1 class="O3"><span style="font-size:45px;">O</span><sub>3</sub> Ingeniería</h1>
 			<h3 class="subtitle">Un Aire de Confianza</h3>
 			<a href="mainpage-o3.html" target="_self" class="n nmain">Inicio</a>
 			<a href="design.html" target="_self" class="n ndesign">Dise&ntilde;o</a>
 			<a href="installation.html" target="_self" class="n nsales">Instalaci&oacute;n</a>
-			<a href="#contact" target="_self" class="n ncontact">Contacto</a>
+			<a href="Contact.html" target="_self" class="n ncontact">Contacto</a>
 		</div>
+		
+		<!--main part-->
+		<section class="principal-grid">
+		     <div class="grid-item" style="background-image:url('images-o3/prevention.png');background-repeat:no-repeat;">   
+			    <h2>Preventivo</h2>
+				<h5>El Mantenimiento Preventivo es la clave para la larga vida y el máximo rendimiento de tus equipos. 
+				    Se trata de inspecciones y ajustes programados que realizamos antes de que surjan problemas.</br>
+                    &iquest;Qu&eacute;  incluye y qu&eacute;  ganas   &quest;
+				</h5>
+				<ul class="hide"> 
+				    <li>Inspección completa: Limpieza profunda de filtros, bobinas y drenajes; 
+					    revisión de niveles de gas refrigerante y componentes eléctricos.
+					</li>
+					<li>Ahorro: Garantiza la eficiencia energética, reduciendo tu consumo eléctrico y el riesgo de averías costosas.</li>
+					<li>Confianza: Asegura un aire más limpio y un funcionamiento silencioso y fiable de tu sistema, temporada tras temporada.</li>
+					<li>Ventaja: Prolongamos la vida útil de tu inversión y evitas paradas inesperadas.</li>
+				</ul>
+			</div>
+			 <div class="grid-item" style="background-image:url('images-o3/corrective.png');background-repeat:no-repeat;">   
+			    <h2>Correctivo</h2>
+				<h5>Cuando el equipo falla, el Mantenimiento Correctivo es nuestra solución rápida y efectiva. Nos enfocamos en el diagnóstico 
+				y la reparación inmediata de averías o fallos del sistema.</br>
+                    &iquest;Qu&eacute;  incluye y qu&eacute;  ganas   &quest;
+				</h5>
+				<ul class="hide"> 
+				    <li>Diagnóstico preciso: Identificación rápida de la causa raíz del problema 
+					    (fugas, fallos de compresor, problemas eléctricos, etc.).
+					</li>
+					<li>Reparación profesional: Uso de piezas originales o de alta calidad e intervención por técnicos certificados.</li>
+					<li>Rapidez: Servicio de emergencia para minimizar el tiempo de inactividad de tu hogar o negocio.</li>
+					<li>Confianza: Recupera el confort o la operatividad de tu proceso industrial en el menor tiempo posible 
+					    con una reparación garantizada.
+					</li>
+				</ul>
+			</div>
+			 <div class="grid-item" style="background-image:url('images-o3/prediction.png');background-repeat:no-repeat;">   
+			    <h2>Predictivo</h2>
+				<h5>Lleva el cuidado de tus equipos al siguiente nivel. El Mantenimiento Predictivo utiliza tecnología de monitoreo avanzado 
+				     para detectar fallos antes de que se manifiesten.</br>
+                    &iquest;Qu&eacute;  incluye y qu&eacute;  ganas   &quest;
+				</h5>
+				<ul class="hide"> 
+				    <li>Análisis sin contacto: Evaluamos el estado interno de los equipos mientras están en funcionamiento.</li>
+					<li>Detección temprana: Identificamos puntos calientes, desgaste de rodamientos o
+                        desequilibrios mucho antes que una inspección visual.
+					</li>
+					<li>Planificación: Permite programar las reparaciones en el momento más conveniente, evitando interrupciones críticas.</li>
+					<li>Ventaja Competitiva: Máxima optimización de recursos y la mayor fiabilidad operativa posible, 
+					    ideal para entornos comerciales e industriales.
+					</li>
+				</ul>
+			</div>
+		</section>
 		
 		<!--contact-->
 		<section class="contact" id="contact">
-		    <img src="images-o3/Logo.png" class="end">
+		    <img src="images-o3/Logo.png" alt="Logo of the companie, an O with a 3 inside" class="end">
 			<h1 class="final"><span style="font-size:45px;">O</span><sub>3</sub> Ingeniería SAS</h1>
 			<p class="nit">NIT: 900.966.429-6</p>
-			<div class="phone"> &phone; +57 (604) 4795861
-			                    316 617-6072
+			<div class="phone"> &phone; +57 (604) 4795861</br>
+			                            316 617-6072
 			</div>
 			<a href="documents/aviso-legal.pdf" target="_blank"><h2 class="warning">Aviso Legal</h2></a>
-		    <div class="table"><table>
+			<table class="form">
+			    <tr><th>Contáctanos<th><tr>
+				<tr><td>
+			        <form>
+                    Tu nombre y apellido:<br/>
+                   <input type="number">
+                   <br/>
+                   Número de teléfono:<br/>
+                   <input type="password"><br/>
+				    Describe lo que necesitas:<br/>
+                    <textarea></textarea>
+                    </form>
+					</td>
+				<tr>
+			</table>
+		    <div class="table">
+			<table>
 			    <tr>
 				    <th>Enlaces</th> <th>Datos de contacto</th>
 				</tr>
@@ -65,7 +140,8 @@
 				<tr>
 				    <td></td> <td>Lunes-Viernes<br/> 7:00-4:00</td>
 				</tr>
-			</table></div>
+			</table>
+			</div>
 		</section>
 	</body>
 <html>

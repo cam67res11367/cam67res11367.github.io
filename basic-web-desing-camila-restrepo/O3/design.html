@@ -29,30 +29,82 @@
 		        top:50px;
 		        right:200px;
 	        }
+			
+			.table {
+		        position:absolute;
+		        left:900px;
+		        top:850px;
+	        }
 		
 		</style>
 		
 	     <!--Navigation part-->
 		<div class="navigation">
-		    <img src="images-o3/Logo.png" alt="" class="logo">
+		    <img src="images-o3/Logo.png" alt="Logo of the companie, an O with a 3 inside" class="logo">
 			<h1 class="O3"><span style="font-size:45px;">O</span><sub>3</sub> Ingeniería</h1>
 			<h3 class="subtitle">Un Aire de Confianza</h3>
 			<a href="mainpage-o3.html" target="_self" class="n nmain">Inicio</a>
 			<a href="installation.html" target="_self" class="n nsales">Instalaci&oacute;n</a>
 			<a href="maintenance.html" target="_self" class="n nmnto">Mantenimiento</a>
-			<a href="#contact" target="_self" class="n ncontact">Contacto</a>
+			<a href="Contact.html" target="_self" class="n ncontact">Contacto</a>
 		</div>
+		
+		<!--main part-->
+		<section class="principal-grid">
+		    <div class="grid-item " style="background-image:url('images-o3/aseso.png');background-repeat:no-repeat;">
+			    <h2>Asesor&iacute;as</h2>
+				<p class="hide">¿Su sistema de climatización consume demasiada energía? 
+				¿No logra el confort deseado? Nuestro servicio de asesoría experta le ofrece un diagnóstico preciso 
+				y soluciones estratégicas para optimizar sus sistemas HVAC existentes. Le ayudamos a reducir costos operativos, 
+				mejorar la eficiencia energética, y asegurar el cumplimiento normativo, garantizando un ambiente saludable y productivo. 
+				Tome decisiones informadas y maximice la vida útil de sus equipos con nuestra guía profesional.</p>
+			</div>
+			<div class="grid-item" style="background-image:url('images-o3/idesign.png');background-repeat:no-repeat;">
+			    <h2>Dise&ntilde;o</h2>
+				<p class="hide">Creamos el diseño perfecto de climatización, ventilación y aire acondicionado desde cero,
+				totalmente adaptado a sus necesidades. Ya sea para un proyecto residencial, comercial o industrial, 
+				nuestro equipo de ingenieros desarrolla sistemas eficientes, sostenibles y de alto rendimiento.
+				Nos enfocamos en la selección óptima de equipos y una planificación inteligente que garantiza el máximo confort, 
+				la mejor calidad de aire interior y un consumo energético mínimo. Construya con la certeza de un sistema diseñado para el futuro.
+                </p>
+			</div>
+			<div class="grid-item" style="background-image:url('images-o3/ventas.png');background-repeat:no-repeat;">
+			    <h2>Ventas</h2>
+				<p class="hide"> Acceda a un catálogo de equipos de climatización de última generación y de las marcas más confiables del mercado.
+				Más que una simple venta, le ofrecemos la solución completa: desde la selección del equipo ideal que se ajusta a su espacio 
+				y presupuesto, hasta el soporte técnico que necesita. Garantizamos tecnología de punta, eficiencia energética y durabilidad.
+				Equipe su proyecto con lo mejor y asegure un ambiente confortable y confiable por años.
+				</p>
+			</div>
+		</section>
+		
 		
 		<!--contact-->
 		<section class="contact" id="contact">
-		    <img src="images-o3/Logo.png" class="end">
+		    <img src="images-o3/Logo.png" alt="Logo of the companie, an O with a 3 inside" class="end">
 			<h1 class="final"><span style="font-size:45px;">O</span><sub>3</sub> Ingeniería SAS</h1>
 			<p class="nit">NIT: 900.966.429-6</p>
-			<div class="phone"> &phone; +57 (604) 4795861
-			                    316 617-6072
+			<div class="phone"> &phone; +57 (604) 4795861</br>
+			                            316 617-6072
 			</div>
 			<a href="documents/aviso-legal.pdf" target="_blank"><h2 class="warning">Aviso Legal</h2></a>
-		    <div class="table"><table>
+			<table class="form">
+			    <tr><th>Contáctanos<th><tr>
+				<tr><td>
+			        <form>
+                    Tu nombre y apellido:<br/>
+                   <input type="number">
+                   <br/>
+                   Número de teléfono:<br/>
+                   <input type="password"><br/>
+				    Describe lo que necesitas:<br/>
+                    <textarea></textarea>
+                    </form>
+					</td>
+				<tr>
+			</table>
+		    <div class="table">
+			<table>
 			    <tr>
 				    <th>Enlaces</th> <th>Datos de contacto</th>
 				</tr>
@@ -65,7 +117,8 @@
 				<tr>
 				    <td></td> <td>Lunes-Viernes<br/> 7:00-4:00</td>
 				</tr>
-			</table></div>
+			</table>
+			</div>
 		</section>
 	</body>
 <html>
